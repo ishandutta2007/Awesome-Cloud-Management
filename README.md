@@ -4,7 +4,7 @@
 
 # ☁️ Awesome Cloud Management
 
-[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Management?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cloud-Management/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Management?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cloud-Management/network/members) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cloud-Management/pulls) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Management?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cloud-Management/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Management?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cloud-Management/network/members) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cloud-Management/pulls) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 **A definitive, curated index of Cloud Management Platforms (CMP), Multi-Cloud Orchestration Engines, FinOps Cloud Spend Governance Tools, and Open-Source Sovereign Infrastructure Frameworks.**
 
@@ -60,61 +60,61 @@ Open-source and self-hosted tools provide total sovereignty, eliminate per-workl
 
 The list below is sorted in descending order by GitHub stargazers count:
 
-- **[LocalStack](https://github.com/localstack/localstack)** [![GitHub stars](https://img.shields.io/github/stars/localstack/localstack?style=social&color=white)](https://github.com/localstack/localstack/stargazers)  
+- **[LocalStack](https://github.com/localstack/localstack)** [![GitHub_Stars](https://img.shields.io/github/stars/localstack/localstack?style=social&color=white)](https://github.com/localstack/localstack/stargazers)  
   *A fully functional local AWS cloud stack.* Develop, emulate, and test multi-cloud serverless, container, and IaaS components offline without generating cloud vendor bills or security risks.
 
-- **[OpenTofu](https://github.com/opentofu/opentofu)** [![GitHub stars](https://img.shields.io/github/stars/opentofu/opentofu?style=social&color=white)](https://github.com/opentofu/opentofu/stargazers)  
+- **[OpenTofu](https://github.com/opentofu/opentofu)** [![GitHub_Stars](https://img.shields.io/github/stars/opentofu/opentofu?style=social&color=white)](https://github.com/opentofu/opentofu/stargazers)  
   *Declarative multi-cloud infrastructure orchestration engine.* Community-driven, open-source Linux Foundation alternative to Terraform that reliably provisions and manages resources across AWS, Azure, GCP, and thousands of infrastructure providers.
 
-- **[Infracost](https://github.com/infracost/infracost)** [![GitHub stars](https://img.shields.io/github/stars/infracost/infracost?style=social&color=white)](https://github.com/infracost/infracost/stargazers)  
+- **[Infracost](https://github.com/infracost/infracost)** [![GitHub_Stars](https://img.shields.io/github/stars/infracost/infracost?style=social&color=white)](https://github.com/infracost/infracost/stargazers)  
   *Cloud cost intelligence for platform engineers and CI/CD pipelines.* Shifts FinOps left by estimating the exact financial cost differences of pull requests and infrastructure-as-code changes before merging.
 
-- **[Spinnaker](https://github.com/spinnaker/spinnaker)** [![GitHub stars](https://img.shields.io/github/stars/spinnaker/spinnaker?style=social&color=white)](https://github.com/spinnaker/spinnaker/stargazers)  
+- **[Spinnaker](https://github.com/spinnaker/spinnaker)** [![GitHub_Stars](https://img.shields.io/github/stars/spinnaker/spinnaker?style=social&color=white)](https://github.com/spinnaker/spinnaker/stargazers)  
   *Open-source, multi-cloud continuous delivery and cloud resource deployment platform.* Engineered originally by Netflix and Google for fast, reproducible, and automated multi-region deployments across AWS EC2, Kubernetes, and Google Cloud.
 
-- **[Atlantis](https://github.com/runatlantis/atlantis)** [![GitHub stars](https://img.shields.io/github/stars/runatlantis/atlantis?style=social&color=white)](https://github.com/runatlantis/atlantis/stargazers)  
+- **[Atlantis](https://github.com/runatlantis/atlantis)** [![GitHub_Stars](https://img.shields.io/github/stars/runatlantis/atlantis?style=social&color=white)](https://github.com/runatlantis/atlantis/stargazers)  
   *Terraform and OpenTofu pull request automation.* Facilitates GitOps collaboration across engineering teams by executing plans and applies directly through pull request comments with strict state locks.
 
-- **[Steampipe](https://github.com/turbot/steampipe)** [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe?style=social&color=white)](https://github.com/turbot/steampipe/stargazers)  
+- **[Steampipe](https://github.com/turbot/steampipe)** [![GitHub_Stars](https://img.shields.io/github/stars/turbot/steampipe?style=social&color=white)](https://github.com/turbot/steampipe/stargazers)  
   *The extensible zero-ETL SQL engine for cloud operations.* Query live cloud infrastructure, evaluate security postures, audit compliance frameworks, and analyze spending across AWS, Azure, GCP, and Kubernetes using standard SQL.
 
-- **[OpenCost](https://github.com/opencost/opencost)** [![GitHub stars](https://img.shields.io/github/stars/opencost/opencost?style=social&color=white)](https://github.com/opencost/opencost/stargazers)  
+- **[OpenCost](https://github.com/opencost/opencost)** [![GitHub_Stars](https://img.shields.io/github/stars/opencost/opencost?style=social&color=white)](https://github.com/opencost/opencost/stargazers)  
   *CNCF vendor-neutral open-source Kubernetes cost monitoring framework.* Delivers granular real-time visibility into microservice, namespace, deployment, and container spending across multi-cloud clusters.
 
-- **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![GitHub stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white)](https://github.com/cloud-custodian/cloud-custodian/stargazers)  
+- **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![GitHub_Stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white)](https://github.com/cloud-custodian/cloud-custodian/stargazers)  
   *CNCF incubating rules engine for cloud security, FinOps cost optimization, and governance.* Employs human-readable YAML policies to filter, audit, tag, and remediate cloud resources in real time across AWS, Azure, and GCP.
 
-- **[Digger](https://github.com/diggerhq/digger)** [![GitHub stars](https://img.shields.io/github/stars/diggerhq/digger?style=social&color=white)](https://github.com/diggerhq/digger/stargazers)  
+- **[Digger](https://github.com/diggerhq/digger)** [![GitHub_Stars](https://img.shields.io/github/stars/diggerhq/digger?style=social&color=white)](https://github.com/diggerhq/digger/stargazers)  
   *Open-source IaC orchestration platform.* Runs Terraform and OpenTofu directly inside your existing CI/CD runners (GitHub Actions, GitLab CI) with concurrency control, PR-level cost estimates, and OPA policy guardrails.
 
-- **[Komiser](https://github.com/mlabouardy/komiser)** [![GitHub stars](https://img.shields.io/github/stars/mlabouardy/komiser?style=social&color=white)](https://github.com/mlabouardy/komiser/stargazers)  
+- **[Komiser](https://github.com/mlabouardy/komiser)** [![GitHub_Stars](https://img.shields.io/github/stars/mlabouardy/komiser?style=social&color=white)](https://github.com/mlabouardy/komiser/stargazers)  
   *Open-source cloud environment inspector and inventory visualizer.* Discovers unused cloud resources, misconfigurations, and budget leaks across AWS, GCP, Azure, DigitalOcean, and Kubernetes environments.
 
-- **[Apache CloudStack](https://github.com/apache/cloudstack)** [![GitHub stars](https://img.shields.io/github/stars/apache/cloudstack?style=social&color=white)](https://github.com/apache/cloudstack/stargazers)  
+- **[Apache CloudStack](https://github.com/apache/cloudstack)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/cloudstack?style=social&color=white)](https://github.com/apache/cloudstack/stargazers)  
   *Mature open-source Infrastructure-as-a-Service (IaaS) cloud management platform.* Orchestrates compute, network, and storage resources to build massive public, private, and hybrid enterprise clouds.
 
-- **[OptScale](https://github.com/hystax/optscale)** [![GitHub stars](https://img.shields.io/github/stars/hystax/optscale?style=social&color=white)](https://github.com/hystax/optscale/stargazers)  
+- **[OptScale](https://github.com/hystax/optscale)** [![GitHub_Stars](https://img.shields.io/github/stars/hystax/optscale?style=social&color=white)](https://github.com/hystax/optscale/stargazers)  
   *Self-hosted open-source FinOps and cloud cost management engine (Apache 2.0).* Specializes in tracking and optimizing high-performance GPU, AI/ML, and containerized workloads across AWS, Azure, GCP, and Alibaba Cloud.
 
-- **[OpenNebula](https://github.com/OpenNebula/one)** [![GitHub stars](https://img.shields.io/github/stars/OpenNebula/one?style=social&color=white)](https://github.com/OpenNebula/one/stargazers)  
+- **[OpenNebula](https://github.com/OpenNebula/one)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenNebula/one?style=social&color=white)](https://github.com/OpenNebula/one/stargazers)  
   *Simple, powerful open-source Cloud & Edge Computing Platform.* Unifies VM lifecycle management, edge compute deployments, and sovereign multi-tenant enterprise cloud operations.
 
-- **[ManageIQ](https://github.com/ManageIQ/manageiq)** [![GitHub stars](https://img.shields.io/github/stars/ManageIQ/manageiq?style=social&color=white)](https://github.com/ManageIQ/manageiq/stargazers)  
+- **[ManageIQ](https://github.com/ManageIQ/manageiq)** [![GitHub_Stars](https://img.shields.io/github/stars/ManageIQ/manageiq?style=social&color=white)](https://github.com/ManageIQ/manageiq/stargazers)  
   *Robust open-source hybrid cloud management platform (upstream of Red Hat CloudForms).* Manages containers, virtual machines, and cloud workloads with policy-based governance, automated lifecycle discovery, and chargeback reporting.
 
-- **[kube-green](https://github.com/kube-green/kube-green)** [![GitHub stars](https://img.shields.io/github/stars/kube-green/kube-green?style=social&color=white)](https://github.com/kube-green/kube-green/stargazers)  
+- **[kube-green](https://github.com/kube-green/kube-green)** [![GitHub_Stars](https://img.shields.io/github/stars/kube-green/kube-green?style=social&color=white)](https://github.com/kube-green/kube-green/stargazers)  
   *Kubernetes operator for automated cluster carbon reduction.* Suspends idle non-production pods, deployments, and cron jobs outside business operating hours, slashing unnecessary cloud computing invoices.
 
-- **[Terrakube](https://github.com/terrakube-io/terrakube)** [![GitHub stars](https://img.shields.io/github/stars/terrakube-io/terrakube?style=social&color=white)](https://github.com/terrakube-io/terrakube/stargazers)  
+- **[Terrakube](https://github.com/terrakube-io/terrakube)** [![GitHub_Stars](https://img.shields.io/github/stars/terrakube-io/terrakube?style=social&color=white)](https://github.com/terrakube-io/terrakube/stargazers)  
   *Self-hosted open-source IaC collaboration platform (Apache 2.0).* Serves as a full replacement for Terraform Enterprise, offering private module and provider registries, workspace state management, and VCS integration on Kubernetes.
 
-- **[Terracost](https://github.com/cycloidio/terracost)** [![GitHub stars](https://img.shields.io/github/stars/cycloidio/terracost?style=social&color=white)](https://github.com/cycloidio/terracost/stargazers)  
+- **[Terracost](https://github.com/cycloidio/terracost)** [![GitHub_Stars](https://img.shields.io/github/stars/cycloidio/terracost?style=social&color=white)](https://github.com/cycloidio/terracost/stargazers)  
   *European sovereign cloud cost estimation engine for Terraform CLI plans.* Computes exact cost differentials before provisioning infrastructure to avoid financial surprises.
 
-- **[BoaviztAPI](https://github.com/Boavizta/boaviztapi)** [![GitHub stars](https://img.shields.io/github/stars/Boavizta/boaviztapi?style=social&color=white)](https://github.com/Boavizta/boaviztapi/stargazers)  
+- **[BoaviztAPI](https://github.com/Boavizta/boaviztapi)** [![GitHub_Stars](https://img.shields.io/github/stars/Boavizta/boaviztapi?style=social&color=white)](https://github.com/Boavizta/boaviztapi/stargazers)  
   *Open-source API and environmental methodology suite.* Evaluates the ecological impact, power usage, and carbon emissions of server instances and multi-cloud hardware.
 
-- **[Fulcrum Core](https://github.com/fulcrumproject/core)** [![GitHub stars](https://img.shields.io/github/stars/fulcrumproject/core?style=social&color=white)](https://github.com/fulcrumproject/core/stargazers)  
+- **[Fulcrum Core](https://github.com/fulcrumproject/core)** [![GitHub_Stars](https://img.shields.io/github/stars/fulcrumproject/core?style=social&color=white)](https://github.com/fulcrumproject/core/stargazers)  
   *European open-source sovereign cloud infrastructure orchestrator supported by CISPE.cloud.* Coordinates distributed cloud providers, agents, and provisioned services through a unified Go-based control plane.
 
 ---
