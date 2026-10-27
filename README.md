@@ -1,187 +1,189 @@
-# Awesome-Cloud-Management
+<div align="center">
 
-## Top Cloud Management Ecosystem
+![Awesome Cloud Management Banner](assets/banner.svg)
 
+# ☁️ Awesome Cloud Management
 
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Management?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cloud-Management/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Management?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cloud-Management/network/members) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cloud-Management/pulls) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+**A definitive, curated index of Cloud Management Platforms (CMP), Multi-Cloud Orchestration Engines, FinOps Cloud Spend Governance Tools, and Open-Source Sovereign Infrastructure Frameworks.**
 
-*Focused on Multi-Cloud Orchestration, FinOps & Infrastructure Governance*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud Management**. These tools enable organizations to provision, orchestrate, govern, and optimize resources across public, private, and hybrid cloud environments—controlling costs, enforcing policies, and maintaining visibility over distributed infrastructure.
-
-
-
-**Examples** include ServiceNow Cloud Management (now Cloud Provisioning and Governance), Flexera, CloudHealth by Broadcom, Morpheus Data (HPE), Spot by NetApp, Apptio Cloudability, Nutanix Beam (NCM Cost Governance), Turbonomic, Scalr, and CloudBolt (the category leaders).
-
-
-
-**Open-source emphasis**: This section is expanded with active projects for self-hosted FinOps, Infrastructure-as-Code management, and cloud cost optimization—ideal for platform teams and FinOps practitioners building sovereign cloud management infrastructure without per-resource or per-workload licensing lock-in.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[ServiceNow Cloud Management](https://www.servicenow.com/)**  
-
-  Now branded as **Cloud Provisioning and Governance (CPG)**, this module on the Now Platform provides cloud user and admin portals, resource profiles, Terraform integration, policy enforcement, and multi-cloud support for AWS, Azure, and VMware; positioned as an integrated CMP for organizations already on ServiceNow, though some users note it lags behind dedicated CMP tools in feature depth .
-
-
-
-- **[Flexera](https://www.flexera.com/)**  
-
-  Hybrid IT management platform with cloud management capabilities including orchestration, automation, provisioning, and inventory across multi-vendor environments; Gartner reviewers note a smooth UI and accurate information, though support resolution can be slow . Flexera's Snow Commander offers self-service hybrid cloud provisioning with automated lifecycle management and policy-driven resource decommissioning .
-
-
-
-- **[CloudHealth by Broadcom](https://www.broadcom.com/)**  
-
-  FinOps and cloud spend management platform (VMware Tanzu CloudHealth) with a new AI-powered experience featuring Intelligent Assist (natural language FinOps co-pilot) and Smart Summary (cost change analysis); recently GA'd under Broadcom with Arrow Electronics as sole global provider; users report strong multi-cloud visibility but note intermittent data gaps and a steep learning curve .
-
-
-
-- **[Morpheus Data (HPE)](https://morpheusdata.com/)**  
-
-  Infrastructure-agnostic multi-cloud management platform for hybrid IT and DevOps automation; provides unified orchestration across VMs, containers, and bare metal with FinOps-focused cost tracking and optimization; now part of HPE as HPE Morpheus Enterprise Software; users note licensing can be complex but cost-effective compared to competitors .
-
-
-
-- **[Spot by NetApp](https://www.netapp.com/)**  
-
-  Cloud optimization suite that continuously analyzes and automates cloud operations to improve efficiency and reduce costs across compute, storage, and security resources .
-
-
-
-- **[Apptio Cloudability](https://www.apptio.com/)**  
-
-  FinOps platform (IBM company) used as a single source of truth for cloud costs; Apptio's own P&E team used Cloudability to optimize unit costs by 30% and automated 1,400+ actions per month with no human touch, ranging from RI conversions to dynamic resource parking .
-
-
-
-- **[Nutanix Beam (NCM Cost Governance)](https://www.nutanix.com/)**  
-
-  Multi-cloud cost governance platform (formerly Beam) providing visibility, optimization, and control across AWS, Azure, GCP, and Nutanix private cloud; claims 35%+ savings through automated rightsizing, reserved instance purchasing, and showback/chargeback .
-
-
-
-- **[Turbonomic (IBM)](https://www.ibm.com/)**  
-
-  Application Resource Management platform that continuously analyzes and automates resource allocation across on-premises and cloud environments; 8.19 adds AWS Aurora DB cluster parking, expanded Azure region and VM instance support, and billed cost discovery for Azure VM Scale Sets .
-
-
-
-- **[Scalr](https://scalr.io/)**  
-
-  Terraform/OpenTofu automation and collaboration platform positioned as a cost-effective drop-in replacement for Terraform Cloud; provides remote operations backend, GitOps workflows, OPA policy enforcement, drift detection, and AI tooling including an MCP Server for querying workspaces from AI assistants .
-
-
-
-- **[CloudBolt](https://www.cloudbolt.io/)**  
-
-  Hybrid cloud management platform with a May 2026 release adding MCP support for governed AI agent interaction, fine-grained RBAC, custom day-two actions, and expanded VMware alternative support (OpenShift Virtualization, Oracle Linux Virtualization Manager, Hyper-V, OCI, Azure Local) .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[OptScale](https://github.com/hystax/optscale)**  
-
-  Open-source multi-cloud FinOps platform (Apache 2.0) with support for AI/ML-heavy workloads where GPU and experimentation costs can spike; ingests billing and usage data from cloud APIs, combining cost visibility, optimization recommendations, budget tracking, anomaly detection, and policy-based alerts aligned to teams or business structures; Thoughtworks notes it covers broader non-Kubernetes FinOps use cases than OpenCost with less vendor lock-in than Cloudability/CloudHealth, though deployment complexity is higher .
-
-
-
-- **[Terrakube](https://github.com/terrakube-io/terrakube)**  
-
-  Open-source collaboration platform for remote Infrastructure-as-Code operations using Terraform or OpenTofu (Apache 2.0); positioned as a complete replacement for Terraform Enterprise, Scalr, or Env0; features private Terraform module and provider registries, organization-based workspace management, VCS integration (GitHub, GitLab, Azure DevOps, Bitbucket), custom flows with approvals, and plugin support; deployable on Kubernetes .
-
-
-
-- **[Fulcrum Core](https://github.com/fulcrumproject/core)**  
-
-  Comprehensive open-source cloud infrastructure management system (Go) designed to orchestrate and monitor distributed cloud resources across multiple providers; serves as a centralized control plane for managing cloud service providers, deployed agents, and provisioned services (VMs, containers, Kubernetes clusters); supported by CISPE.cloud for open, sovereign, and interoperable cloud solutions in Europe; active development with Docker Compose deployment .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **OpenCost** — Open-source Kubernetes cost monitoring tool; provides real-time cost visibility for container workloads, useful as a complement to broader FinOps platforms.
-
-- **Infracost** — Open-source cloud cost estimator for pull requests; shows cost impact of infrastructure changes before merge, integrating FinOps into IaC workflows .
-
-- **Terracost** — European open-source cloud cost estimation tool (France, score 94/100 in EU sovereignty ranking); self-hostable for cost estimation of Terraform plans .
-
-- **kube-green** — Open-source tool (Italy) for automatically shutting down idle Kubernetes resources outside business hours to reduce cloud costs .
-
-- **BoaviztAPI** — Open-source API (France) for assessing the environmental impact of cloud resources; useful for sustainability-aware cloud management .
-
-
-
-**Frameworks for building custom systems**: Combine **OptScale** for multi-cloud FinOps with GPU/ML workload cost visibility, **Terrakube** for self-hosted Terraform/OpenTofu operations with policy enforcement, **Fulcrum Core** for distributed cloud resource orchestration, and **Infracost** for shift-left cost visibility in IaC pipelines in a fully self-hosted cloud management stack.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Cloud management platforms handling infrastructure credentials and cost data must comply with applicable security policies and financial governance requirements; access to cloud provisioning capabilities requires strict RBAC and audit trails.
-
-- Self-hosted open-source solutions vary significantly in scope—OptScale provides broad FinOps coverage, Terrakube focuses on IaC operations, and Fulcrum Core targets distributed resource orchestration; full enterprise CMP with provisioning, governance, and multi-cloud orchestration typically requires commercial platforms or assembly of multiple tools.
-
-- Verify license terms for commercial use; OptScale uses Apache 2.0, Terrakube uses Apache 2.0, and Fulcrum Core is under active development (check repository for license) .
-
-
+*Empowering platform engineers, enterprise cloud architects, FinOps practitioners, and DevOps teams to orchestrate, optimize, and govern public, private, and hybrid cloud estates.*
 
 ---
 
+</div>
 
+## 📑 Table of Contents
 
-**Made for cloud platform engineers, FinOps practitioners, infrastructure architects, and IT operations leaders.**  
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Enterprise Hosted Platforms](#-saas--enterprise-hosted-platforms)
+- [🚀 Open-Source Cloud Management Projects](#-open-source-cloud-management-projects)
+- [🧩 Architecture & Stack Recommendations](#-architecture--stack-recommendations)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Community](#-support--community)
+- [📄 Disclaimer & License](#-disclaimer--license)
 
-Let's make cloud management more open, cost-aware, and operationally sovereign.
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global **Cloud Management Platform (CMP)** and **Multi-Cloud Management** market is currently estimated between **$13.4 Billion and $17.1 Billion in 2025–2026**, on track to expand at a rapid **CAGR of ~22.4%** to exceed **$85 Billion by 2034**. Enterprise multi-cloud diversification (simultaneously managing AWS, Microsoft Azure, Google Cloud, and on-premises hypervisors), surging AI/ML workload costs, and stringent regulatory compliance have turned centralized cloud governance and FinOps into non-negotiable operational priorities.
+
+The sector demonstrates **moderate fragmentation**: while established enterprise software conglomerates (Broadcom, IBM, ServiceNow, HPE) control significant shares of traditional IT Operations Management (ITOM) budgets, no single vendor maintains a winner-take-all lock. Continuous innovation across containerized environments, developer-first shift-left FinOps tooling, and high enterprise demand for open-source, sovereign Infrastructure-as-Code (IaC) governance ensure a fiercely competitive landscape where specialized platforms thrive alongside major enterprise suites.
+
+---
+
+## 🏢 SaaS & Enterprise Hosted Platforms
+
+The following table indexes prominent commercial Cloud Management Platforms, sorted in descending order by parent company scale (valuation / market capitalization).
+
+| Company Size (Valuation / Revenue) | Platform & Vendor | Primary Focus & Capabilities | Starting Tier Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **~$780B Valuation**<br>*(Broadcom: $51.6B Rev)* | **[CloudHealth by Broadcom](https://www.broadcom.com/)** | Enterprise multi-cloud FinOps spend visibility, AI Intelligent Assist co-pilot, automated budget tracking, and custom policy guardrails across AWS, Azure, and GCP. | **$45,000/year**<br>*(CH150K tier covers up to $150K/month managed AWS spend; overage ~$0.03/dollar)* | **14-day free trial** on AWS Marketplace (full feature access for up to 1 connected cloud account / $150K monthly spend ceiling). |
+| **~$215B Valuation**<br>*(IBM: $62.1B Rev)* | **[Turbonomic (IBM)](https://www.ibm.com/products/turbonomic)** | AI-driven Application Resource Management (ARM) continuously optimizing VM, container, and database allocation across hybrid and multi-cloud infrastructure. | **~$40,000/year**<br>*(Foundational tier covers entry 200-workload block; scales at ~$180–$250 per virtual server annually)* | **30-day free trial** with full optimization features and unlimited workload visibility across AWS, Azure, and GCP (no credit card required). |
+| **~$215B Valuation**<br>*(IBM: $62.1B Rev)* | **[Apptio Cloudability (IBM)](https://www.apptio.com/products/cloudability/)** | Deep enterprise FinOps financial management, unit economics modeling, commitment lifecycle automation (RIs/Savings Plans), and multi-cloud anomaly detection. | **$2,500/month**<br>*($30,000/year billed annually for environments managing up to $1M in annual public cloud spend)* | **14-day free trial** via sales/marketplace evaluation with complete multi-cloud cost visibility (no permanent free tier). |
+| **~$190B Valuation**<br>*(ServiceNow: $10.5B Rev)* | **[ServiceNow Cloud Provisioning and Governance](https://www.servicenow.com/)** | Unified ITOM Cloud Management module enabling self-service service catalogs, Terraform cloud provisioning, automated policy compliance, and enterprise CMDB sync. | **~$8,000–$15,000/year**<br>*(Base discovery & ITOM provisioning starts at ~$0.50–$1.50 per monitored node/month)* | **15-day sales-assisted PoC trial**; permanent free Personal Developer Instance (PDI) for core Now platform features (CPG plugin restricted). |
+| **~$28B Valuation**<br>*(HPE: $29.1B Rev)* | **[Morpheus Data (HPE)](https://morpheusdata.com/)** | Infrastructure-agnostic multi-cloud automation and orchestration platform spanning bare metal, hypervisors (VMware, Nutanix, KVM), containers, and public clouds. | **~$10,000/year**<br>*(Entry concurrent workload element packs start at ~$100–$150 per managed workload element annually)* | **Free Community Edition** (free forever up to 3 physical sockets / non-commercial homelab use); **60-day free trial** for Morpheus VM Essentials. |
+| **~$26B Valuation**<br>*(NetApp: $6.3B Rev)* | **[Spot by NetApp](https://www.netapp.com/)** | Continuous compute automation that optimizes infrastructure SLA, utilizing spot instances (Elastigroup) and dynamic Kubernetes container rightsizing (Ocean). | **~$0.15/vCPU-hour**<br>*(Usage-based public rate or ~20% of net realized compute savings generated)* | **Free forever plan** supporting up to **20 virtual machines (VMs)**; **14-day free trial** with full automated scaling and zero workload restrictions. |
+| **~$17B Valuation**<br>*(Nutanix: $2.1B Rev)* | **[Nutanix NCM Cost Governance](https://www.nutanix.com/products/cloud-manager)** | Multi-cloud and hybrid infrastructure cost control (formerly Nutanix Beam) providing showback/chargeback, automated rightsizing, and cloud security compliance. | **$99/month**<br>*(Standard Tier for 1 cloud account; Professional multi-account tier starts at $299/month)* | **90-day free trial** with full multi-cloud cost visibility, budget tracking, and optimization recommendations across AWS, Azure, GCP, and Nutanix. |
+| **~$3.0B Valuation**<br>*(Private Equity: TA / Thoma Bravo)* | **[Flexera One](https://www.flexera.com/)** | Hybrid IT asset management and multi-cloud governance platform incorporating Snow Commander for automated provisioning, lifecycle decommissioning, and FinOps. | **~$5,000–$13,000/year**<br>*(Entry SaaS modules; Cloud Cost Optimization tier starts at ~$50,000/year managing up to $1M cloud spend)* | **14-day assisted proof-of-concept (PoC) trial** upon demo qualification with sales team (no permanent free tier). |
+| **~$200M Valuation**<br>*(Insight Partners backed)* | **[CloudBolt](https://www.cloudbolt.io/)** | Hybrid cloud management platform providing blueprint-based self-service orchestration, day-2 operations automation, and MCP-based AI agent governance. | **~$8,500/year**<br>*(Annual commercial starter license, or ~£6 per managed VM/month via framework schedules)* | **Free forever edition** of the full CMP platform for up to **100 managed resources** (virtual machines, clusters, databases, and networks). |
+| **~$80M Valuation**<br>*(Series A/B funded)* | **[Scalr](https://scalr.io/)** | Terraform and OpenTofu remote operations collaboration backend, offering full GitOps workflows, automated drift detection, OPA policy enforcement, and AI MCP integration. | **$0.99 per run**<br>*(Business Plan pay-as-you-go or $99/month for 100 prepaid execution runs)* | **Free forever plan** supporting up to **50 runs per month** with 5 concurrent execution runners and full OPA policy enforcement. |
+
+---
+
+## 🚀 Open-Source Cloud Management Projects
+
+Open-source and self-hosted tools provide total sovereignty, eliminate per-workload software licensing, and integrate natively into GitOps CI/CD pipelines. 
+
+The list below is sorted in descending order by GitHub stargazers count:
+
+- **[LocalStack](https://github.com/localstack/localstack)** [![GitHub stars](https://img.shields.io/github/stars/localstack/localstack?style=social&color=white)](https://github.com/localstack/localstack/stargazers)  
+  *A fully functional local AWS cloud stack.* Develop, emulate, and test multi-cloud serverless, container, and IaaS components offline without generating cloud vendor bills or security risks.
+
+- **[OpenTofu](https://github.com/opentofu/opentofu)** [![GitHub stars](https://img.shields.io/github/stars/opentofu/opentofu?style=social&color=white)](https://github.com/opentofu/opentofu/stargazers)  
+  *Declarative multi-cloud infrastructure orchestration engine.* Community-driven, open-source Linux Foundation alternative to Terraform that reliably provisions and manages resources across AWS, Azure, GCP, and thousands of infrastructure providers.
+
+- **[Infracost](https://github.com/infracost/infracost)** [![GitHub stars](https://img.shields.io/github/stars/infracost/infracost?style=social&color=white)](https://github.com/infracost/infracost/stargazers)  
+  *Cloud cost intelligence for platform engineers and CI/CD pipelines.* Shifts FinOps left by estimating the exact financial cost differences of pull requests and infrastructure-as-code changes before merging.
+
+- **[Spinnaker](https://github.com/spinnaker/spinnaker)** [![GitHub stars](https://img.shields.io/github/stars/spinnaker/spinnaker?style=social&color=white)](https://github.com/spinnaker/spinnaker/stargazers)  
+  *Open-source, multi-cloud continuous delivery and cloud resource deployment platform.* Engineered originally by Netflix and Google for fast, reproducible, and automated multi-region deployments across AWS EC2, Kubernetes, and Google Cloud.
+
+- **[Atlantis](https://github.com/runatlantis/atlantis)** [![GitHub stars](https://img.shields.io/github/stars/runatlantis/atlantis?style=social&color=white)](https://github.com/runatlantis/atlantis/stargazers)  
+  *Terraform and OpenTofu pull request automation.* Facilitates GitOps collaboration across engineering teams by executing plans and applies directly through pull request comments with strict state locks.
+
+- **[Steampipe](https://github.com/turbot/steampipe)** [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe?style=social&color=white)](https://github.com/turbot/steampipe/stargazers)  
+  *The extensible zero-ETL SQL engine for cloud operations.* Query live cloud infrastructure, evaluate security postures, audit compliance frameworks, and analyze spending across AWS, Azure, GCP, and Kubernetes using standard SQL.
+
+- **[OpenCost](https://github.com/opencost/opencost)** [![GitHub stars](https://img.shields.io/github/stars/opencost/opencost?style=social&color=white)](https://github.com/opencost/opencost/stargazers)  
+  *CNCF vendor-neutral open-source Kubernetes cost monitoring framework.* Delivers granular real-time visibility into microservice, namespace, deployment, and container spending across multi-cloud clusters.
+
+- **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![GitHub stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white)](https://github.com/cloud-custodian/cloud-custodian/stargazers)  
+  *CNCF incubating rules engine for cloud security, FinOps cost optimization, and governance.* Employs human-readable YAML policies to filter, audit, tag, and remediate cloud resources in real time across AWS, Azure, and GCP.
+
+- **[Digger](https://github.com/diggerhq/digger)** [![GitHub stars](https://img.shields.io/github/stars/diggerhq/digger?style=social&color=white)](https://github.com/diggerhq/digger/stargazers)  
+  *Open-source IaC orchestration platform.* Runs Terraform and OpenTofu directly inside your existing CI/CD runners (GitHub Actions, GitLab CI) with concurrency control, PR-level cost estimates, and OPA policy guardrails.
+
+- **[Komiser](https://github.com/mlabouardy/komiser)** [![GitHub stars](https://img.shields.io/github/stars/mlabouardy/komiser?style=social&color=white)](https://github.com/mlabouardy/komiser/stargazers)  
+  *Open-source cloud environment inspector and inventory visualizer.* Discovers unused cloud resources, misconfigurations, and budget leaks across AWS, GCP, Azure, DigitalOcean, and Kubernetes environments.
+
+- **[Apache CloudStack](https://github.com/apache/cloudstack)** [![GitHub stars](https://img.shields.io/github/stars/apache/cloudstack?style=social&color=white)](https://github.com/apache/cloudstack/stargazers)  
+  *Mature open-source Infrastructure-as-a-Service (IaaS) cloud management platform.* Orchestrates compute, network, and storage resources to build massive public, private, and hybrid enterprise clouds.
+
+- **[OptScale](https://github.com/hystax/optscale)** [![GitHub stars](https://img.shields.io/github/stars/hystax/optscale?style=social&color=white)](https://github.com/hystax/optscale/stargazers)  
+  *Self-hosted open-source FinOps and cloud cost management engine (Apache 2.0).* Specializes in tracking and optimizing high-performance GPU, AI/ML, and containerized workloads across AWS, Azure, GCP, and Alibaba Cloud.
+
+- **[OpenNebula](https://github.com/OpenNebula/one)** [![GitHub stars](https://img.shields.io/github/stars/OpenNebula/one?style=social&color=white)](https://github.com/OpenNebula/one/stargazers)  
+  *Simple, powerful open-source Cloud & Edge Computing Platform.* Unifies VM lifecycle management, edge compute deployments, and sovereign multi-tenant enterprise cloud operations.
+
+- **[ManageIQ](https://github.com/ManageIQ/manageiq)** [![GitHub stars](https://img.shields.io/github/stars/ManageIQ/manageiq?style=social&color=white)](https://github.com/ManageIQ/manageiq/stargazers)  
+  *Robust open-source hybrid cloud management platform (upstream of Red Hat CloudForms).* Manages containers, virtual machines, and cloud workloads with policy-based governance, automated lifecycle discovery, and chargeback reporting.
+
+- **[kube-green](https://github.com/kube-green/kube-green)** [![GitHub stars](https://img.shields.io/github/stars/kube-green/kube-green?style=social&color=white)](https://github.com/kube-green/kube-green/stargazers)  
+  *Kubernetes operator for automated cluster carbon reduction.* Suspends idle non-production pods, deployments, and cron jobs outside business operating hours, slashing unnecessary cloud computing invoices.
+
+- **[Terrakube](https://github.com/terrakube-io/terrakube)** [![GitHub stars](https://img.shields.io/github/stars/terrakube-io/terrakube?style=social&color=white)](https://github.com/terrakube-io/terrakube/stargazers)  
+  *Self-hosted open-source IaC collaboration platform (Apache 2.0).* Serves as a full replacement for Terraform Enterprise, offering private module and provider registries, workspace state management, and VCS integration on Kubernetes.
+
+- **[Terracost](https://github.com/cycloidio/terracost)** [![GitHub stars](https://img.shields.io/github/stars/cycloidio/terracost?style=social&color=white)](https://github.com/cycloidio/terracost/stargazers)  
+  *European sovereign cloud cost estimation engine for Terraform CLI plans.* Computes exact cost differentials before provisioning infrastructure to avoid financial surprises.
+
+- **[BoaviztAPI](https://github.com/Boavizta/boaviztapi)** [![GitHub stars](https://img.shields.io/github/stars/Boavizta/boaviztapi?style=social&color=white)](https://github.com/Boavizta/boaviztapi/stargazers)  
+  *Open-source API and environmental methodology suite.* Evaluates the ecological impact, power usage, and carbon emissions of server instances and multi-cloud hardware.
+
+- **[Fulcrum Core](https://github.com/fulcrumproject/core)** [![GitHub stars](https://img.shields.io/github/stars/fulcrumproject/core?style=social&color=white)](https://github.com/fulcrumproject/core/stargazers)  
+  *European open-source sovereign cloud infrastructure orchestrator supported by CISPE.cloud.* Coordinates distributed cloud providers, agents, and provisioned services through a unified Go-based control plane.
+
+---
+
+## 🧩 Architecture & Stack Recommendations
+
+To build a **100% sovereign, self-hosted, vendor-neutral Cloud Management Stack**, combine the following open-source components:
+
+```
+┌────────────────────────────────────────────────────────┐
+│                   GITOPS & DEVELOPER UI                │
+│       Terrakube (IaC Workspaces) + Atlantis / Digger    │
+└──────────────────────────┬─────────────────────────────┘
+                           │
+┌──────────────────────────▼─────────────────────────────┐
+│                 POLICY & SHIFT-LEFT FINOPS             │
+│    Cloud Custodian (Governance) + Infracost (PR Diffs)  │
+└──────────────────────────┬─────────────────────────────┘
+                           │
+┌──────────────────────────▼─────────────────────────────┐
+│              MULTI-CLOUD INFRASTRUCTURE ENGINE         │
+│          OpenTofu (Multi-Cloud Declarative IaC)         │
+│       Apache CloudStack / OpenNebula (Hybrid / Bare)   │
+└──────────────────────────┬─────────────────────────────┘
+                           │
+┌──────────────────────────▼─────────────────────────────┐
+│            CONTINUOUS RUNTIME COST & AUDITING          │
+│    OptScale (Multi-Cloud / GPU) + OpenCost (Kubernetes) │
+│    Steampipe (SQL Posture) + kube-green (Idle Off)     │
+└────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Management&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help keep this ecosystem guide complete, accurate, and up-to-date:
+
+1. **Fork the repository** to your GitHub account.
+2. **Create a descriptive feature branch** (`git checkout -b feature/add-new-cmp-tool`).
+3. **Add or edit entries** adhering strictly to the existing tabular and list formats:
+   - Provide verified starting tier prices (avoid generic "Contact Sales" or "Custom" where public numbers exist).
+   - Document specific free tier limits or free trial durations.
+   - For open-source projects, include the social badge linking to stargazers.
+4. **Commit your modifications** with clear commit messages.
+5. **Submit a Pull Request** summarizing the additions or corrections with official documentation links.
+
+---
+
+## ☕ Support & Community
+
+If this curated repository helps you navigate cloud complexity, optimize multi-cloud infrastructure bills, or design modern platform engineering stacks:
+
+- ⭐ **Star this repository** to improve visibility and help other cloud architects discover it.
+- 🍴 **Fork and share** it with your engineering colleagues and FinOps community.
+- 💬 **Join our discussions** on our [Discord Community](https://discord.gg/jc4xtF58Ve) to connect with fellow DevOps engineers and builders.
+- ☕ **Support continuous maintenance**: Buy us a coffee and back our open-source research on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your sponsorship and community engagement keep this directory continuously updated, vendor-neutral, and free for everyone. Thank you! 🙌
+
+---
+
+## 📄 Disclaimer & License
+
+- **Disclaimer:** All product names, logos, and brands are property of their respective owners. Listing in this repository is strictly informational and does not constitute an official endorsement. Cloud management platforms require elevated cloud permissions; ensure appropriate least-privilege RBAC and audit procedures are enforced.
+- **License:** Distributed under the permissive [MIT License](LICENSE). Curated with ❤️ by [Ishan Dutta](https://github.com/ishandutta2007) and the open-source community.
